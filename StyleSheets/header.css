@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Created by Fraser Catlin */
+/* Date - 26/10/2009 */
+/* Company - Capital IT Consultants LTD */
+
+/* Font Styles */
+
+.DateStyle {
+	font-size: 10px;
+	font-weight: Normal;
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+	}
+	
+.HeaderTextUpperStyle{
+	font-size: 20px;
+	font-weight: Normal;
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #330099;
+	}
+	
+.HeaderTextLowerStyle{
+	font-size: 18px;
+	font-weight: Normal;
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FF9933;
+	}
+
+/* Header layout styles */
+
+#HeaderDiv{
+	}
+
+#HeadSeperator{
+	color:#003366;
+	background: #53B5E6;
+	height: 20px;
+	border-bottom: 1px solid #003366;
+	border-top: 1px solid #003366;
+	text-align: right;
+	clear: both;
+	}
+
+#DateSpan{
+	position: relative;
+	top: 5px;
+	right: 5px;
+	}
+	
+#HeaderText{
+	float: left;
+	text-align: center;
+	width: 400px;
+	height: 125px;
+	}
+	
+#HeaderTextUpper{
+	}
+
+#HeaderTextUpperContent {
+	position: absolute;
+	width: 300px;
+	top: 50px;
+	left: 350px;
+	}
+	
+#HeaderTextLower{
+	position: absolute;
+	width: 300px;
+	top: 72px;
+	left: 350px;
+	}
+
+/* Header Logo */
+
+#HeaderLogo{
+	clear: left;
+	float: left;
+	}
+	
+#AddHeaderLogo{
+	clear: right;
+	float: right;
+	}
+	
+/* Declare withs of div and img at the same time */
+	
+#HeaderLogo{
+	width: 310px;
+	}
+	
+#HeaderLogo img{
+	width: 310px;
+	height: 125px;
+	}
+	
+#AddHeaderLogo{
+	width: 140px;
+	}	
+	
+#AddHeaderLogo img{
+	margin-top: 25px;
+	width: 140px;
+	height: 100px;
+	}

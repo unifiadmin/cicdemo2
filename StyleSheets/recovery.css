@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Created by Fraser Catlin */
+/* Date - 26/10/2009 */
+/* Company - Capital IT Consultants LTD */
+
+/* Import sub-stylesheet */
+
+@import "menu.css";
+@import "header.css";
+@import "footer.css";
+
+/* Font Styles */
+
+.RecoveryHeaderStyle{
+	font-size: 18px;
+	font-weight: bold;
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #3366CC;
+	}
+
+.RecoveryBodyStyle{
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #003366;
+	}
+	
+.RecoveryBodyStyle a{
+	text-decoration: none;
+	color: #4BCE00;
+	}
+
+/* Main Body layout styles */
+
+#PageDiv{
+	position: relative;
+	width: 850px;
+	height: 900px;
+	margin: 20px auto 20px auto;
+	}
+
+#BodyDiv{
+	clear: both;
+	}
+	
+#BodyNonNav{
+	width:700px;
+	float:right;
+	}
+	
+#RecoverySection{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 660px;
+	float: left;
+	}
+
+#RecoveryHeader{
+	
+	}
+	
+#RecoveryBody{
+	margin-top: 20px;
+	}
+	
+#RecoveryImageDiv{
+	float: right;
+	margin-right: 10px;
+	}
+	
+#ServicesLinkDiv{
+	clear: both;
+	margin-top: 20px;
+	}
+	
+
+
+	
+
+	
+
+	

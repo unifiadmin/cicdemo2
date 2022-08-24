@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Created by Fraser Catlin */
+/* Date - 26/10/2009 */
+/* Company - Capital IT Consultants LTD */
+
+/* Font Styles */
+
+.MenuStyle {
+	font-size: 11px;
+	font-weight: none;
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+	}
+
+/* Menu Divs */
+
+#Menu {
+	width: 150px;
+	float: left;
+	}
+
+#Menu UL {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	}
+
+#Menu li {
+	background: #E6F3FF;
+	border-bottom: 2px solid #C0DFFD;
+	}
+
+#Menu a {
+	color: #003366;
+	line-height:16px;
+	letter-spacing: .1em;
+	text-decoration: none;
+	display: block;
+	padding: 8px 6px 10px 26px;
+	background: url("../images/menu_arrow.gif") 14px 45% no-repeat;
+	}
+	
+#Menu a:hover {
+	background: #ffffff url("../images/menu_arrow.gif") 14px 45% no-repeat;
+	color: #FF6600;
+	}

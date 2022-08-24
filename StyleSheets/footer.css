@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Created by Fraser Catlin */
+/* Date - 26/10/2009 */
+/* Company - Capital IT Consultants LTD */
+
+/* Font Styles */
+
+.FooterStyle{
+	font-size: 10px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	}
+
+/* Footer layout styles */
+
+#FooterDiv{
+	clear: both;
+	position: relative;
+	margin-bottom: 0px;
+	}
+
+#FooterSeperator{
+	color:#003366;
+	background: #53B5E6;
+	height: 5px;
+	border-bottom: 1px solid #003366;
+	border-top: 1px solid #003366;
+	text-align: right;
+	clear: both;
+	}
+	
+#FooterDetails{
+	text-align: center;
+	}
+	
+#FooterDetails a{
+	text-decoration: none;
+	color: #4BCE00;
+	}

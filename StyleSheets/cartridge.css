@@ -1,0 +1,193 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Created by Fraser Catlin */
+/* Date - 26/10/2009 */
+/* Company - Capital IT Consultants LTD */
+
+/* Import sub-stylesheet */
+
+@import "menu.css";
+@import "header.css";
+@import "footer.css";
+
+/* Font Styles */
+
+.CartridgeHeaderStyle {
+	font-size: 18px;
+	font-weight: bold;
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #3366CC;
+	}
+	
+.CartridgeBodyStyle{
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #003366;
+	}
+	
+.CartridgeLogoDivStyle a{
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #4BCE00;
+	}
+	
+.PartnershipIntroHeaderStyle{
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FF9933;
+	}
+	
+.CartridgeIntrotextStyle a{
+	color: #4BCE00;
+	text-decoration: none;
+	}
+	
+.Location1HeaderStyle{
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FF9933;
+	}
+	
+.Location1AddressStyle{
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #003366;
+	}	
+	
+.Location2HeaderStyle{
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FF9933;
+	}
+	
+.Location2AddressStyle{
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #003366;
+	}	
+	
+.Location3HeaderStyle{
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FF9933;
+	}
+	
+.Location3AddressStyle{
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #003366;
+	}	
+
+/* Main Body layout styles */
+
+#PageDiv{
+	position: relative;
+	width: 850px;
+	height: 900px;
+	margin: 20px auto 20px auto;
+	}
+
+#BodyDiv{
+	clear: both;
+	}
+	
+#BodyNonNav{
+	width:700px;
+	float:right;
+	}
+	
+#CartridgeSection{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 660px;
+	float: left;
+	}
+
+#CartridgeHeader{
+	
+	}
+	
+#CartridgeLogoDiv{
+	float: right;
+	width: 330px;
+	height: 120px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	text-align: center;
+	}
+
+#CartridgeLogoDiv img{
+	width: 320px;
+	height: 100px;
+	border: 0px none;
+	}
+	
+#CartridgeBody{
+	margin-top: 20px;
+	}
+	
+#CartridgeIntrotext{
+	padding-top: 10px;
+	}
+	
+#LocationDiv{
+	margin-top: 20px;
+	}
+	
+#Location1Div{
+	float: left;
+	clear: right;
+	width: 150px;
+	margin-left: 30px;
+	margin-right: 10px;
+	}
+	
+#Location1Map{
+	float: right;
+	clear: right;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	}
+	
+#Location2Div{
+	float: left;
+	clear: right;
+	width: 150px;
+	margin-left: 30px;
+	margin-right: 10px;
+	}
+	
+#Location2Map{
+	float: right;
+	clear: right;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	}
+	
+#Location3Div{
+	float: left;
+	clear: right;
+	width: 150px;
+	margin-left: 30px;
+	margin-right: 10px;
+	}
+
+#Location3Map{
+	float: right;
+	clear: right;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	}

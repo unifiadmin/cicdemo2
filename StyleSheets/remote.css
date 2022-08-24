@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Created by Fraser Catlin */
+/* Date - 26/10/2009 */
+/* Company - Capital IT Consultants LTD */
+
+/* Import sub-stylesheet */
+
+@import "menu.css";
+@import "header.css";
+@import "footer.css";
+
+/* Font Styles */
+
+.RemoteHeaderStyle {
+	font-size: 18px;
+	font-weight: bold;
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #3366CC;
+	}
+	
+.RemoteBodyStyle{
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #003366;
+	}
+	
+.RemoteBodyStyle a{
+	text-decoration: none;
+	color: #4BCE00;
+	}
+	
+.InputBox{
+	border: 2px solid black;
+	background: #DADADA;
+	margin: 20px auto 20px auto;
+	}
+	
+.trademarkInfoText{
+	font-size: 10px;
+	}
+	
+#PageDiv{
+	position: relative;
+	width: 850px;
+	height: 900px;
+	margin: 20px auto 20px auto;
+	}
+
+/* Main Body layout styles */
+
+
+#BodyDiv{
+	clear: both;
+	}
+	
+#BodyNonNav{
+	width:700px;
+	float:right;
+	}
+	
+#RemoteSection{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	width: 660px;
+	float: left;
+	}
+
+#RemoteHeader{
+	
+	}
+	
+#RemoteBody{
+	margin-top: 20px;
+	}
+	
+#RemoteDescription{
+	}
+	
+#RemoteControls{
+	margin: 20px auto 20px auto;
+	height: 200px;
+	width: 450px;
+	background: #EFEFEF;
+	}
+	
+#LogmeinRescueLogo{
+	float: left;
+	}
+	
+#LogmeinRescueLogo img{
+	height: 200px;
+	}	
+	
+#LogmeinrescueForm{
+	float: right;
+	margin-top: 60px;
+	margin-right: 60px;
+	}
+
+#rescueCodebox{
+	margin-left: 50px;
+	}
+	
+#rescueButton{
+	margin-left: 15px;
+	}
+	
+#RemoteControls2{
+	margin: 20px auto 20px auto;
+	width: 450px;
+	height: 220px;
+	clear: left;
+	background: #EFEFEF;
+	}
+	
+#TeamviewerSupportMac{
+	margin: 10px 0px 10px 0px;
+	}
+	
+#TeamviewerSupportMac img{
+	width: 100px;
+	margin-top: 5px;
+	margin-right: 5px;
+	float: left;
+	border: 0px none;
+	}
+
+#TeamviewerSupportPC{
+	margin: 30px 0px 10px 0px;
+	clear: left;
+	}
+	
+#TeamviewerSupportPC img{
+	width: 100px;
+	margin-right: 5px;
+	float: left;
+	border: 0px none;
+	}

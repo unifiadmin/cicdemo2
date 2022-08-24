@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Created by Fraser Catlin */
+/* Date - 26/10/2009 */
+/* Company - Capital IT Consultants LTD */
+
+/* Import sub-stylesheet */
+
+@import "menu.css";
+@import "header.css";
+@import "footer.css";
+
+/* Font Styles */
+
+.ContactHeaderStyle {
+	font-size: 18px;
+	font-weight: bold;
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #3366CC;
+	}
+	
+.ContactBodyStyle{
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #003366;
+	}
+	
+.AddressTextHeaderStyle{
+	font-size: 16px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FF9933;
+	}
+	
+.AddressTextStyle{
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #003366;
+	}
+	
+.AddressPhoneDescriptionStyle{
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FF9933;
+	}
+	
+.AddressPhoneStyle{
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #003366;
+	}
+	
+.EmailAddressDescriptionStyle{
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FF9933;
+	}
+	
+.EmailAddressStyle a{
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #4BCE00;
+	}
+
+#PageDiv{
+	position: relative;
+	width: 850px;
+	height: 900px;
+	margin: 20px auto 20px auto;
+	}
+
+/* Main Body layout styles */
+
+
+#BodyDiv{
+	clear: both;
+	}
+	
+#BodyNonNav{
+	width:700px;
+	float:right;
+	}
+	
+#ContactSection{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 660px;
+	float: left;
+	}
+
+#ContactHeader{
+	
+	}
+	
+#AddressDetails{
+	float: left;
+	width: 180px;
+	margin-top: 80px;
+	margin-left: 50px;
+	}
+	
+#GoogleMap{
+	float: right;
+	width: 400px;
+	margin-top: 10px;
+	}
+	
+
